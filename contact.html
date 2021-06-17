@@ -1,0 +1,40 @@
+<!-- 5- Una pagina de contacto donde debe colocar un formulario con los campos de nombre, apellido, correo y una descripción donde el cliente especifique los servicios que desea (esta pagina debe tener un enlace que me permita volver al home)-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Site</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Contactanos</h1>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="values.html">Valores</a></li>
+          <li><a href="knowledge.html">Conocimientos</a></li>
+          <li><a href="projects.html">Proyectos</a></li>
+          <li><a href="contact.html">Contactanos</a></li>
+        </ul>
+      </div>
+      <div>
+        <form action="">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" /><br />
+          <label for="last_name">Apellido:</label>
+          <input type="text" id="last_name" name="last_name" /><br />
+          <label for="email">Correo Electronico:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <textarea name="description" id="description" cols="30" rows="10">
+Escriba aqui los servicios deseados</textarea
+          ><br />
+          <input type="button" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
